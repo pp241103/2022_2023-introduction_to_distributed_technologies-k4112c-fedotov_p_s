@@ -1,0 +1,9 @@
+# Ignore backups within any direcory #
+######################################
+**/*~
+**/*.bak
+**/*.log*
+
+# Ignore "Other" direcories within repo #
+#########################################
+**/Other
