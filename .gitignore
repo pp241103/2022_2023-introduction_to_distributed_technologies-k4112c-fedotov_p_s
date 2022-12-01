@@ -7,3 +7,5 @@
 # Ignore "Other" direcories within repo #
 #########################################
 **/Other
+**/*.crt
+**/*.key
