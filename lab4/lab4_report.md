@@ -258,6 +258,28 @@ CNI - container networking interface
 
 [k8s docs concepts](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/)
 
+![the structure of CNI](https://habrastorage.org/r/w1560/web/315/fbc/532/315fbc53255241a5b7d9d7a8f369e2ea.png)
+
+1. Specification
+
+   Defines the API between the container's executable environment and network plugins: mandatory supported operations (adding a container to the network and removing it from there), a list of parameters, the format of the network configuration and their lists (stored in JSON), as well as known structures (IP addresses, routes, DNS servers).
+   
+2. Plugins
+
+   * main (loopback, bridge, ptp, vlan, ipvlan, macvlan)
+   
+   * ipam (dhcp, host-local)
+   
+   * meta (flannel, tuning)
+   
+   * sample
+   
+3. Libraries
+
+   Implementation of the specification CNI
+   
+Written in Go
+
 ### CoreDNS
 
 [CoreDNS](https://coredns.io/) is a DNS server. It is written in Go. It can be used in a multitude of environments because of its flexibility.
