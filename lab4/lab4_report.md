@@ -182,6 +182,13 @@ ip-pool-2   192.168.1.0/24   true   Always     Never       false      false     
 
 ### Write `deployment` `service` port forwarding
 
+```
+$ kubectl apply -f deployment.yaml
+$ kubectl apply -f service.yaml
+
+$ kubectl port-forward service/my-service 8200:3000
+```
+
 ### Web test
 
 ![](./Img/web_test_1.png)
