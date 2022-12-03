@@ -217,8 +217,19 @@ PING 192.168.1.129 (192.168.1.129): 56 data bytes
 round-trip min/avg/max = 0.246/0.384/0.595 ms
 /frontend #
 ```
+### Scheme
+
+![](./Img/lab4.png)
 
 ## Files
+
+[](./calicoctl.yaml)
+
+[](./deployment.yaml)
+
+[](./ip_pools.yaml)
+
+[](./service.yaml)
 
 ## Terms
 
