@@ -223,13 +223,13 @@ round-trip min/avg/max = 0.246/0.384/0.595 ms
 
 ## Files
 
-[](./calicoctl.yaml)
+[calicoctl.yaml](./calicoctl.yaml)
 
-[](./deployment.yaml)
+[deployment.yaml](./deployment.yaml)
 
-[](./ip_pools.yaml)
+[ip_pools.yaml](./ip_pools.yaml)
 
-[](./service.yaml)
+[service.yaml](./service.yaml)
 
 ## Terms
 
