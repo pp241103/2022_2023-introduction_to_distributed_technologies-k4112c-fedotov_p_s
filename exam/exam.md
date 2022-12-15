@@ -81,3 +81,5 @@ this is DPoS algorithm (d-like democracy)
 |energy efficient|not energy efficient|
 |Security through community control|Robust security due to expensive upfront requirement|
 |Validators receive transactions fees as rewards|Miners receive block rewards|
+
+51% - attack means that "hucker" should have 51% of all coins.
