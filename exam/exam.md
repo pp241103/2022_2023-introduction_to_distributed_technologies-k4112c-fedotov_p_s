@@ -68,6 +68,16 @@ The higher count of staked coins as higher the probability of choosing the memem
 
 This is why the speed is higher.
 
+Etherieum reuires 32 ETH to become a validator.
+
 Ddelegated stake
 
 this is DPoS algorithm (d-like democracy)
+
+|PoS|PoW|
+|---|---|
+|validators|miners|
+|have tokens|have equipment|
+|energy efficient|not energy efficient|
+|Security through community control|Robust security due to expensive upfront requirement|
+|Validators receive transactions fees as rewards|Miners receive block rewards|
